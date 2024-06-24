@@ -44,12 +44,12 @@ const StyledCardActionArea = styled(CardActionArea)({
         <CardMedia
           component="img"
           height="140"
-          image="/001.jpg"
+          image="/000.jpg"
           alt="portfolio-image"
         />
         <CardContent>
           <Typography style={{fontFamily:"atlas"}}gutterBottom variant="h5" component="div">
-            SODEXO | Full Stack Dev
+            SODEXO | Full Stack Devxx
           </Typography>
           <Typography  style={{fontFamily:"atlas"}}  variant="body2" color="text.secondary">
             TECH STACK:
@@ -74,9 +74,16 @@ methodologies.
         </CardContent>
       </StyledCardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+      <Button 
+        size="small" 
+        color="primary" 
+        variant="contained" 
+        
+      >
+        <a href="https://www.sodexo.com.mx/cotizador/"  target="_blank" rel="noopener noreferrer" >
+  Visit ya
+</a>
+      </Button>
       </CardActions>
     </Card>
       </Grid>
