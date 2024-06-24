@@ -24,9 +24,10 @@ const StyledCardActionArea = styled(CardActionArea)({
 });
 
 const StyledButton = styled(Button)({
-  backgroundColor: '#abc123',
+  backgroundColor: '#000000',
   '&:hover': {
-    backgroundColor: '#8fa114', }
+    backgroundColor: '#E9D654',
+  color:'#000000' }
 });
 
 
@@ -135,9 +136,15 @@ Updated JS, CSS, HTML’s as necessary.
         </CardContent>
      </StyledCardActionArea>
      <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+     <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://grupo.eco"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
      </Grid>
@@ -189,7 +196,7 @@ updated CSS/Material UI components and HTML’s as necessary.
         variant="contained" 
         
       >
-        <a href="https://www.sodexo.com.mx/cotizador/"  target="_blank" rel="noopener noreferrer" >
+        <a href="https://axeceremonia.com/"  target="_blank" rel="noopener noreferrer" >
   Visit
 </a>
       </StyledButton>
@@ -237,9 +244,15 @@ documents.
 
      </StyledCardActionArea>
      <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+     <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://experiencia.plus/"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
@@ -281,9 +294,15 @@ Updated JS, CSS , Material UI and HTMLs as necessary and newer functionalities.
         </CardContent>
     </StyledCardActionArea>
     <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+    <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://entretenimiento.eco"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
@@ -325,9 +344,15 @@ Updated JS, CSS and HTMLs as necessary and construction of newer functionalities
         </CardContent>
     </StyledCardActionArea>
     <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+    <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://akiaora.com"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
@@ -369,9 +394,15 @@ documents.
         </CardContent>
      </StyledCardActionArea>
      <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+     <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://panea.media"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
@@ -415,9 +446,15 @@ Updated JS, CSS and HTMLs as necessary.
         </CardContent>
      </StyledCardActionArea>
      <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+     <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://bravognp.com"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
@@ -469,9 +506,15 @@ Migration to Typescript and set up GraphQL.
         </CardContent>
     </StyledCardActionArea>
     <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+    <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://l-u-x-u-s.shop"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
@@ -517,9 +560,15 @@ necessary.
         </CardContent>
      </StyledCardActionArea>
      <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+     <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://cartel.eco"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
@@ -561,9 +610,15 @@ and HTMLs as necessary.
         </CardContent>
     </StyledCardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+      <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://sanitarytortillacompany.com"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
@@ -607,9 +662,15 @@ website to add more products, categories, etc. Updated CSS and HTMLs as necessar
         </CardContent>
      </StyledCardActionArea>
      <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+     <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://alfonsostamales.com"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
