@@ -26,8 +26,7 @@ const StyledCardActionArea = styled(CardActionArea)({
 const StyledButton = styled(Button)({
   backgroundColor: '#abc123',
   '&:hover': {
-    backgroundColor: '#8fa114', // Optional: Darker shade for hover effect
-  },
+    backgroundColor: '#8fa114', 
 });
 
 
@@ -85,7 +84,6 @@ methodologies.
       <CardActions>
       <StyledButton 
         size="small" 
-        color="red" 
         variant="contained" 
         
       >
@@ -186,9 +184,15 @@ updated CSS/Material UI components and HTML’s as necessary.
         </CardContent>
     </StyledCardActionArea>
     <CardActions>
-        <Button size="small" color="primary">
-          Visit
-        </Button>
+    <StyledButton 
+        size="small" 
+        variant="contained" 
+        
+      >
+        <a href="https://www.sodexo.com.mx/cotizador/"  target="_blank" rel="noopener noreferrer" >
+  Visit
+</a>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
