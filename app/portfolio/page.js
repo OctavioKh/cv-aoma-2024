@@ -26,7 +26,7 @@ const StyledCardActionArea = styled(CardActionArea)({
 const StyledButton = styled(Button)({
   backgroundColor: '#abc123',
   '&:hover': {
-    backgroundColor: '#8fa114', 
+    backgroundColor: '#8fa114', }
 });
 
 
