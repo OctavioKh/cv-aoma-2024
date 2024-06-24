@@ -15,9 +15,18 @@ import DescriptionIcon from '@mui/icons-material/Description';
 
 
 
+
+
 const StyledCardActionArea = styled(CardActionArea)({
   '&:hover': {
     backgroundColor: '#E9D654',
+  },
+});
+
+const StyledButton = styled(Button)({
+  backgroundColor: '#abc123',
+  '&:hover': {
+    backgroundColor: '#8fa114', // Optional: Darker shade for hover effect
   },
 });
 
@@ -44,12 +53,12 @@ const StyledCardActionArea = styled(CardActionArea)({
         <CardMedia
           component="img"
           height="140"
-          image="/000.jpg"
+          image="/001.jpg"
           alt="portfolio-image"
         />
         <CardContent>
           <Typography style={{fontFamily:"atlas"}}gutterBottom variant="h5" component="div">
-            SODEXO | Full Stack Devxx
+            SODEXO | Full Stack Dev
           </Typography>
           <Typography  style={{fontFamily:"atlas"}}  variant="body2" color="text.secondary">
             TECH STACK:
@@ -74,16 +83,16 @@ methodologies.
         </CardContent>
       </StyledCardActionArea>
       <CardActions>
-      <Button 
+      <StyledButton 
         size="small" 
-        color="primary" 
+        color="red" 
         variant="contained" 
         
       >
         <a href="https://www.sodexo.com.mx/cotizador/"  target="_blank" rel="noopener noreferrer" >
-  Visit ya
+  Visit
 </a>
-      </Button>
+      </StyledButton>
       </CardActions>
     </Card>
       </Grid>
