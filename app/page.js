@@ -148,7 +148,7 @@ function FullWidthGrid() {
                 }
               }}>
                 <li>UNIVERSIDAD AUTÓNOMA DE NUEVO LEÓN [2008]</li>
-                <li>Bachelor of Visual Arts</li>
+                <li>GRAPHIC DESIGN</li>
                 <li>UNIVERSITY OF TEXAS [2024]</li>
                 <li>Post Graduate Program in Artificial Intelligence
                   and Machine Learning for Business Applications</li>
